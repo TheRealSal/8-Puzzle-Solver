@@ -7,8 +7,12 @@ This is a Python program that solves the classic 8-puzzle problem using various 
 - Solve the 8-puzzle problem using the following search algorithms:
   - Breadth-First Search (BFS)
   - Depth-First Search (DFS)
-  - A* Search with the Misplaced Tiles heuristic
-  - A* Search with the Manhattan Distance heuristic
+  - A* Search with the selected heuristic
+- Solve the 8-puzzle problem using the following heuristics:
+  - Hamming distance
+  - Manhattan distance
+  - Manhattan distance with linear conflict
+  - Permutation inversion
 - Display the solution path and the number of moves required to reach the goal state.
 
 ## License
