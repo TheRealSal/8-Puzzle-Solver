@@ -45,13 +45,6 @@ def hamming(puzzle):  # Ordinary manhattan distance
             total += 1
     return total
 
-def permutationinversion(puzzle):
-    """
-    Sum of permutation inversions
-    :param puzzle:
-    :return:
-    """
-
 
 def cornertile(puzzle):  # Ordinary manhattan distance
     """
